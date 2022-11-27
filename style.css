@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;;
+}
+
+/* This is the nav styling */
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+input[type=text] {
+    width: 550px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #f7f9fa;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.fa-magnifying-glass {
+    color: #9fa0a1;
+    position: absolute;
+    
+   
+}
+
+.input-icon {
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+}
+
+.fa-solid {
+    padding: 15px;
+     min-width: 40px;
+}
+
+::placeholder {
+    padding-left: 30px;
+}
+
+.nav-content > p > a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.button-login {
+    width: 90px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: white;
+    /* font-size: 16px; */
+    font-weight: 700;
+}
+
+.button-signup {
+    width: 90px;
+    height: 45px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.button-login > a {
+     text-decoration: none;
+     color: black;
+     cursor: pointer;
+}
+
+.button-login:hover {
+    background-color: #f7f9fa;
+    cursor: pointer;
+}
+
+.button-signup > a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.globe {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.globe > a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.globe:hover {
+    background-color: #f7f9fa;
+    cursor: pointer;
+}
+
+.fa-cart-shopping {
+    font-size: 20px;
+}
+
+a .fa-cart-shopping {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* This is the landing page styling */
+
+.landing-page {
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.landing-page-text {
+    background-color: white;
+    width: 35%;
+    height: 200px;
+    border: 1px solid lightgrey;
+    padding: 10px 10px;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.landing-page-text > h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.landing-page-text > p {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 10px;
+}
