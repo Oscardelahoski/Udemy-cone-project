@@ -36,10 +36,10 @@ input[type=text] {
    
 }
 
-.input-icon {
-    /* width: 100%; */
-    /* margin-bottom: 10px; */
-}
+/* .input-icon {
+    width: 100%;
+    margin-bottom: 10px;
+} */
 
 .fa-solid {
     padding: 15px;
@@ -188,4 +188,92 @@ a .fa-cart-shopping {
     cursor: pointer;
     font-weight: 600;
     /* font-size: 20px; */
+}
+
+/* This is the Carousel styling section */
+
+.carousel-section-content {
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: 30px 30px;
+    margin-top: 5px;
+}
+
+.carousel-section-content > p {
+    width: 65%;
+    margin: 10px 0px;
+}
+
+.carousel-section-content > button {
+    width: 130px;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.carousel-card-container {
+    width: 20%;
+    margin-top: 10px;
+}
+
+.carousel-card-container > p {
+    font-size: 13px;
+    color: #9fa0a1;
+    margin-top: 5px;
+}
+
+.star-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -6px;
+}
+
+.star-ratingP {
+    margin-right: -10px;
+    color: #b4690e ;
+    font-weight: 700;
+}
+
+.star-rating .fa-solid {
+    margin-right: -25px;
+    font-size: 12px;
+    color: #e59819;
+}
+
+.rating-number > p {
+    margin-left:13px ;
+    color: #9fa0a1;
+}
+
+.carousel-price {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.carousel-price > p {
+    text-decoration: line-through;
+    color: #9fa0a1;
+}
+
+.carousel-card-container > button {
+    background-color: #eceb98;
+    width: 75px;
+    height: 22px;
+    border: 1px solid #eceb98;
+    margin-top: 10px;
+}
+
+.carousel-image {
+    border: 1px solid lightgray;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
