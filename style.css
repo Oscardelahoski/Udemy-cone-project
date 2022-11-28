@@ -334,6 +334,7 @@ a .fa-cart-shopping {
 .student-view-card-container {
     width: 20%;
     margin-top: 10px;
+    padding-bottom: 70px;
 }
 
 .student-view-card-container > p {
@@ -398,3 +399,46 @@ a .fa-cart-shopping {
     justify-content: space-between;
 }
 
+/* This is the featured categories styling section */
+
+.featured-categories {
+    background-color: #f7f9fa;
+    width: 100%;
+}
+
+.featured-categories-content {
+    width: 95%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.featured-categories-container {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 200px;
+
+}
+
+.featured-categories-control > h3 {
+    padding-bottom: 15px;
+}
+
+.featured-categories-control > ul > li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.featured-categories-control > ul > li > p {
+    padding: 8px 0px;
+}
+
+.featured-categories-content > button {
+    width: 150px;
+    height: 35px;
+    background-color: #f7f9fa;
+    border: 1px solid black;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
