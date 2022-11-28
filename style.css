@@ -442,3 +442,41 @@ a .fa-cart-shopping {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+/* This is he become an instructor styling section */
+
+.become-instructor {
+    padding: 50px 0px;
+}
+
+.become-instructor-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.instructor-image-text > h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.instructor-image-text > p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.instructor-image-text > button {
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
