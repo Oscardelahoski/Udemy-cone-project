@@ -480,3 +480,32 @@ a .fa-cart-shopping {
     font-size: 14px;
     margin-top: 20px;
 }
+
+/* This is the partner styling section */
+
+.partner-section {
+    width: 100%;
+    background-color: #f7f9fa;
+}
+
+.partner-section-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    
+}
+
+.partner-section-content > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.partner-section-content > p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.partner-image {
+    display: flex;
+    justify-content: space-between;
+}
