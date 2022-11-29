@@ -214,6 +214,11 @@ a .fa-cart-shopping {
     font-weight: 700;
 }
 
+.carousel-section-content > button > a {
+    text-decoration: none;
+    color: black;
+}
+
 .carousel-card-container {
     width: 20%;
     margin-top: 10px;
@@ -266,6 +271,7 @@ a .fa-cart-shopping {
     height: 22px;
     border: 1px solid #eceb98;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .carousel-image {
@@ -384,6 +390,7 @@ a .fa-cart-shopping {
     height: 22px;
     border: 1px solid #eceb98;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .student-view-content {
@@ -443,6 +450,15 @@ a .fa-cart-shopping {
     margin-bottom: 30px;
 }
 
+.featured-categories-content > button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.featured-categories-content > button:hover {
+    background-color: lightgray;
+}
+
 /* This is he become an instructor styling section */
 
 .become-instructor {
@@ -479,6 +495,11 @@ a .fa-cart-shopping {
     color: white;
     font-size: 14px;
     margin-top: 20px;
+}
+
+.instructor-image-text > button > a {
+    text-decoration: none;
+    color: white;
 }
 
 /* This is the partner styling section */
@@ -593,29 +614,31 @@ a .fa-cart-shopping {
 
 .footer {
     background-color: #1c1d1f;
+    margin-bottom: 50px;
 }
 
 .footer-content {
     width: 90%;
     margin: 0 auto;
+    padding: 20px 0px;
 }
 
-.footer-content-links > ul {
-    margin-right: -190px;
+.footer-content-links-button > ul {
+    padding-left: -50px;
 }
 
-.footer-content-links > ul > li {
+.footer-content-links-button > ul > li {
     list-style: none;
     padding: 5px 0px;
     font-size: 15px;
 }
 
-.footer-content-links > ul > li > a {
+.footer-content-links-button > ul > li > a {
     text-decoration: none;
     color: white;
 }
 
-.footer-content-links > ul > li > a:hover {
+.footer-content-links-button > ul > li > a:hover {
     text-decoration: underline;
 }
 
@@ -643,3 +666,21 @@ a .fa-cart-shopping {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.footer-logo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-logo > div > p {
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
