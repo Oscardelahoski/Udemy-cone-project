@@ -36,10 +36,7 @@ input[type=text] {
    
 }
 
-/* .input-icon {
-    width: 100%;
-    margin-bottom: 10px;
-} */
+
 
 .fa-solid {
     padding: 15px;
@@ -321,9 +318,7 @@ a .fa-cart-shopping {
     margin-right: 10px;
 }
 
-.mid-page-icon-text > h4 {
-    /* width: 90%; */
-}
+
 
 .mid-page-icon .fa-star {
     position: relative;
@@ -623,24 +618,6 @@ a .fa-cart-shopping {
     padding: 20px 0px;
 }
 
-.footer-content-links-button > ul {
-    padding-left: -50px;
-}
-
-.footer-content-links-button > ul > li {
-    list-style: none;
-    padding: 5px 0px;
-    font-size: 15px;
-}
-
-.footer-content-links-button > ul > li > a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer-content-links-button > ul > li > a:hover {
-    text-decoration: underline;
-}
 
 .footer-content-button > button {
     width: 180px;
@@ -665,6 +642,7 @@ a .fa-cart-shopping {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* width: 60%; */
 }
 
 .footer-logo {
@@ -679,8 +657,29 @@ a .fa-cart-shopping {
 .footer-logo > div > p {
     color: white;
     font-size: 12px;
+   
 }
 
+.footer-contentUL {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.footer-contentUL > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contentUL > ul > li {
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+.footer-contentUL > ul > li > a:hover {
+    text-decoration: underline;
+}
 
 
 
